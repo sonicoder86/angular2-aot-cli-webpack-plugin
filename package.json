@@ -1,0 +1,64 @@
+{
+  "name": "angular2-aot-cli-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Angular 2 AOT (Ahead Of Time) compilation with the Angular CLI Webpack plugin",
+  "main": "build/modules/main.module.js",
+  "scripts": {
+    "cleanup": "rimraf dist",
+    "start": "webpack-dev-server --config webpack.aot.config.js",
+    "build": "npm run cleanup && webpack --config webpack.aot.config.js -p",
+    "deploy": "gh-pages -d dist",
+    "jit": "webpack-dev-server --config webpack.jit.config.js",
+    "aot": "webpack-dev-server --config webpack.aot.config.js"
+  },
+  "keywords": [
+    "angular2",
+    "aot",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacksonic/angular2-aot-cli-webpack-plugin.git"
+  },
+  "author": {
+    "name": "blacksonic",
+    "email": "soos.gabor86@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "2.4.1",
+    "@angular/compiler": "2.4.1",
+    "@angular/core": "2.4.1",
+    "@angular/platform-browser": "2.4.1",
+    "@angular/platform-browser-dynamic": "2.4.1",
+    "@angular/router": "3.4.1",
+    "core-js": "2.4.1",
+    "rxjs": "5.0.2",
+    "zone.js": "0.7.4"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "2.4.1",
+    "@angular/platform-server": "2.4.1",
+    "@ngtools/webpack": "1.2.1",
+    "@types/node": "6.0.53",
+    "angular2-template-loader": "0.6.0",
+    "apply-loader": "0.1.0",
+    "awesome-typescript-loader": "3.0.0-beta.17",
+    "copy-webpack-plugin": "4.0.1",
+    "css-loader": "0.26.1",
+    "extract-text-webpack-plugin": "2.0.0-beta.4",
+    "gh-pages": "0.12.0",
+    "http-server": "0.9.0",
+    "node-sass": "4.1.1",
+    "pug": "2.0.0-beta6",
+    "pug-loader": "2.3.0",
+    "raw-loader": "0.5.1",
+    "rimraf": "2.5.4",
+    "sass-loader": "4.1.1",
+    "style-loader": "0.13.1",
+    "to-string-loader": "1.1.5",
+    "typescript": "2.0.10",
+    "webpack": "2.1.0-beta.27",
+    "webpack-dev-server": "2.1.0-beta.11"
+  }
+}
