@@ -4,6 +4,9 @@
 
 This repository shows how to use the Angular CLI Webpack plugin (```@ngtools/webpack```) to achieve AOT offline compilation.
 
+If you prefer the command line tool (```ngc```) provided by Angular, 
+it can be found in a [separate repository](https://github.com/blacksonic/angular2-aot-webpack).
+
 The application consists of 
 a module (```src/app/modules/main.module.ts```)
 and a basic component (```src/app/components/hello-world.component.ts```) 
@@ -23,6 +26,11 @@ The application is bundled with Webpack from the main file and is available on `
 - Watch mode for AOT compiled files
 - No need to maintain AOT version of bootstrap file
 - No output to disk for separate ```*.ngfactory.ts``` files during compilation
+
+### Disadvantages
+
+- Need to wait for new versions after Angular release to Angular CLI repository catch up
+- Not good for AOT compatible package publishing, because it doesn't output separate compiled files
 
 ### Known issues
 
