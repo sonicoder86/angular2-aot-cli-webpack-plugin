@@ -4,7 +4,7 @@
 
 This repository shows how to use the Angular CLI Webpack plugin (```@ngtools/webpack```) to achieve AOT offline compilation.
 
-If you prefer the command line tool (```ngc```) provided by Angular, 
+> If you prefer the command line tool (```ngc```) provided by Angular, 
 it can be found in a [separate repository](https://github.com/blacksonic/angular2-aot-webpack).
 
 The application consists of 
