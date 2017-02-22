@@ -7,6 +7,7 @@ module.exports = {
     {
       test: /\.ts$/,
       use: ['@ngtools/webpack']
+      // use: ['@ultimate/aot-loader']
     }
   ].concat(commonRules)
 };
