@@ -26,19 +26,19 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@angular/common": "2.4.8",
-    "@angular/compiler": "2.4.8",
-    "@angular/core": "2.4.8",
-    "@angular/platform-browser": "2.4.8",
-    "@angular/platform-browser-dynamic": "2.4.8",
-    "@angular/router": "3.4.8",
+    "@angular/common": "4.0.0-beta.8",
+    "@angular/compiler": "4.0.0-beta.8",
+    "@angular/core": "4.0.0-beta.8",
+    "@angular/platform-browser": "4.0.0-beta.8",
+    "@angular/platform-browser-dynamic": "4.0.0-beta.8",
+    "@angular/router": "4.0.0-beta.8",
     "core-js": "2.4.1",
     "rxjs": "5.2.0",
     "zone.js": "0.7.7"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "2.4.8",
-    "@angular/platform-server": "2.4.8",
+    "@angular/compiler-cli": "4.0.0-beta.8",
+    "@angular/platform-server": "4.0.0-beta.8",
     "@types/node": "7.0.5",
     "@ultimate/aot-loader": "0.1.8",
     "angular2-template-loader": "0.6.2",
@@ -57,7 +57,7 @@
     "sass-loader": "6.0.2",
     "style-loader": "0.13.1",
     "to-string-loader": "1.1.5",
-    "typescript": "2.0.10",
+    "typescript": "2.2.1",
     "webpack": "2.2.1",
     "webpack-dev-server": "2.4.1"
   }
