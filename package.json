@@ -41,7 +41,7 @@
     "@angular/platform-server": "2.4.8",
     "@ngtools/webpack": "1.2.10",
     "@types/node": "7.0.5",
-    "@ultimate/aot-loader": "0.1.6",
+    "@ultimate/aot-loader": "0.1.8",
     "angular2-template-loader": "0.6.2",
     "apply-loader": "1.0.0",
     "awesome-typescript-loader": "3.0.7",
