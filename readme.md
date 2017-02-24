@@ -1,10 +1,10 @@
-# Angular 2 AOT (Ahead Of Time) compilation with the Angular CLI Webpack plugin
+# Angular 4 AOT (Ahead Of Time) compilation with the Ultimate Angular Webpack plugin
 [![Dependency Status](https://david-dm.org/blacksonic/angular2-aot-cli-webpack-plugin.svg)](https://david-dm.org/blacksonic/angular2-aot-cli-webpack-plugin)
 [![devDependency Status](https://david-dm.org/blacksonic/angular2-aot-cli-webpack-plugin/dev-status.svg)](https://david-dm.org/blacksonic/angular2-aot-cli-webpack-plugin?type=dev)
 
-This repository shows how to use the Angular CLI Webpack plugin (```@ngtools/webpack```) to achieve AOT offline compilation.
+This repository shows how to use the [Ultimate Angular Webpack plugin](https://github.com/UltimateAngular/aot-loader) (`@ultimate/aot-loader`) to achieve AOT offline compilation.
 
-> If you prefer the command line tool (```ngc```) provided by Angular, 
+> If you prefer the command line tool (`ngc`) provided by Angular, 
 it can be found in a [separate repository](https://github.com/blacksonic/angular2-aot-webpack).
 
 The application consists of 
@@ -29,13 +29,12 @@ The application is bundled with Webpack from the main file and is available on `
 
 ### Disadvantages
 
-- Need to wait for new versions after Angular release to Angular CLI repository catch up
 - Not good for AOT compatible package publishing, because it doesn't output separate compiled files
 
 ### Known issues
 
 - [AOT related issues](https://github.com/angular/angular/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20aot)
-- [AOT Webpack plugin related issues](https://github.com/angular/angular-cli/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20aot)
+- [AOT Webpack plugin related issues](https://github.com/UltimateAngular/aot-loader/issues)
 
 ### Further reading
 
