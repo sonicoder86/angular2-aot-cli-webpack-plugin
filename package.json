@@ -40,7 +40,7 @@
     "@angular/compiler-cli": "4.0.0-rc.1",
     "@angular/platform-server": "4.0.0-rc.1",
     "@types/node": "7.0.5",
-    "@ultimate/aot-loader": "0.1.8",
+    "@ultimate/aot-loader": "0.1.9",
     "angular2-template-loader": "0.6.2",
     "apply-loader": "1.0.0",
     "awesome-typescript-loader": "3.0.7",
