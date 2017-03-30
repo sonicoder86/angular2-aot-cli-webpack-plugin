@@ -1,11 +1,10 @@
-# Angular 2 AOT (Ahead Of Time) compilation with the Angular CLI Webpack plugin
+# Angular AOT (Ahead Of Time) compilation with the Angular CLI Webpack plugin
 [![Dependency Status](https://david-dm.org/blacksonic/angular2-aot-cli-webpack-plugin.svg)](https://david-dm.org/blacksonic/angular2-aot-cli-webpack-plugin)
 [![devDependency Status](https://david-dm.org/blacksonic/angular2-aot-cli-webpack-plugin/dev-status.svg)](https://david-dm.org/blacksonic/angular2-aot-cli-webpack-plugin?type=dev)
 
 This repository shows how to use the Angular CLI Webpack plugin (`@ngtools/webpack`) to achieve AOT offline compilation.
 
 It can also work with the new `@utlimate/aot-loader` package and has very similar configuration.
-The main difference is that it can handle Angular 4 also.
 See example in [separate branch](https://github.com/blacksonic/angular2-aot-cli-webpack-plugin/tree/ultimate).
 
 > If you prefer the command line tool (```ngc```) provided by Angular, 
@@ -52,5 +51,5 @@ The application is bundled with Webpack from the main file and is available on `
 ### Starters with AOT compilation available
 
 - [Angular CLI](https://github.com/angular/angular-cli)
-- [Angular 2 Seed](https://github.com/mgechev/angular-seed)
-- [Angular 2 Universal Starter](https://github.com/angular/universal-starter)
+- [Angular Seed](https://github.com/mgechev/angular-seed)
+- [Angular Universal Starter](https://github.com/angular/universal-starter)
