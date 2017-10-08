@@ -14,7 +14,8 @@ module.exports = {
 
   plugins: require('./webpack/plugins').concat([
     new ngtools.AotPlugin({
-      tsConfigPath: path.join(process.cwd(), 'tsconfig.json')
+      tsConfigPath: path.join(process.cwd(), 'tsconfig.json'),
+      entryModule: path.join(process.cwd(), 'src/app/modules/main.module#MainModule')
     })
   ]),
 
