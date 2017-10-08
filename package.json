@@ -44,7 +44,7 @@
     "@types/core-js": "0.9.43",
     "@types/node": "8.0.33",
     "angular2-template-loader": "0.6.2",
-    "apply-loader": "1.0.0",
+    "apply-loader": "2.0.0",
     "awesome-typescript-loader": "3.2.3",
     "copy-webpack-plugin": "4.1.1",
     "css-loader": "0.28.7",
@@ -61,6 +61,6 @@
     "to-string-loader": "1.1.5",
     "typescript": "2.2.2",
     "webpack": "2.3.2",
-    "webpack-dev-server": "2.4.2"
+    "webpack-dev-server": "2.9.1"
   }
 }
