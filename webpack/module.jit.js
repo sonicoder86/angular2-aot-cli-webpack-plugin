@@ -1,6 +1,6 @@
 'use strict';
 
-let commonRules = require('./rules.common');
+const commonRules = require('./rules.common');
 
 module.exports = {
   rules: [

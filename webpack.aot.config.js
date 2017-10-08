@@ -1,7 +1,8 @@
 'use strict';
-let path = require('path');
-let ngtools = require('@ngtools/webpack');
-// let ultimate = require('@ultimate/aot-loader');
+
+const path = require('path');
+const ngtools = require('@ngtools/webpack');
+// const ultimate = require('@ultimate/aot-loader');
 
 module.exports = {
   entry: require('./webpack/entry'),
