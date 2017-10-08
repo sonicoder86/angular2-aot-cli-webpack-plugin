@@ -2,7 +2,6 @@
 
 const path = require('path');
 const ngtools = require('@ngtools/webpack');
-// const ultimate = require('@ultimate/aot-loader');
 
 module.exports = {
   entry: require('./webpack/entry'),
@@ -17,9 +16,6 @@ module.exports = {
     new ngtools.AotPlugin({
       tsConfigPath: path.join(process.cwd(), 'tsconfig.json')
     })
-    // new ultimate.AotPlugin({
-    //   tsConfig: path.join(process.cwd(), 'tsconfig.json')
-    // })
   ]),
 
   resolve: require('./webpack/resolve'),
